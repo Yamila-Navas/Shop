@@ -153,7 +153,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 
@@ -177,6 +177,9 @@ redis_url = urlparse(os.environ.get("REDIS_URL", "redis://redis:6379/0"))
 REDIS_HOST = redis_url.hostname  
 REDIS_PORT = redis_url.port      
 REDIS_DB   = int(redis_url.path.lstrip("/"))  
+
+CELERY_BROKER_URL = redis_url
+CELERY_RESULT_BACKEND = redis_url
 
 
 # Seguridad producción
