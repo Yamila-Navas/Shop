@@ -172,14 +172,15 @@ STRIPE_WEBHOOK_SECRET = config('STRIPE_WEBHOOK_SECRET')
 
 
 # Redis settings
-redis_url = urlparse(os.environ.get("REDIS_URL", "redis://redis:6379/0"))
+REDIS_URL = config("REDIS_URL") 
 
-REDIS_HOST = redis_url.hostname  
-REDIS_PORT = redis_url.port      
-REDIS_DB   = int(redis_url.path.lstrip("/"))  
+parsed_redis = urlparse(REDIS_URL)
+REDIS_HOST = parsed_redis.hostname
+REDIS_PORT = parsed_redis.port
+REDIS_DB = int(parsed_redis.path.lstrip("/"))
 
-CELERY_BROKER_URL = redis_url
-CELERY_RESULT_BACKEND = redis_url
+CELERY_BROKER_URL = REDIS_URL
+CELERY_RESULT_BACKEND = REDIS_URL
 
 
 # Seguridad producción
