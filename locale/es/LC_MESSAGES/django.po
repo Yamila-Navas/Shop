@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myshop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-26 20:09+0000\n"
+"PO-Revision-Date: 2026-03-26 20:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/cart/forms.py:11 templates/cart/detail.html:15
+#: templates/payment/process.html:14
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: apps/coupons/forms.py:6
+msgid "Coupon code"
+msgstr "Código de cupón"
+
+#: apps/orders/forms.py:8
+msgid "Postal code"
+msgstr "Código postal"
+
+#: apps/orders/forms.py:14
+msgid "First name"
+msgstr "Nombre"
+
+#: apps/orders/forms.py:15
+msgid "Last name"
+msgstr "Apellido"
+
+#: apps/orders/forms.py:16
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: apps/orders/forms.py:17
+msgid "Address"
+msgstr "Dirección"
+
+#: apps/orders/forms.py:18
+msgid "City"
+msgstr "Ciudad"
+
+#: templates/cart/detail.html:5 templates/cart/detail.html:9
+msgid "Your shopping cart"
+msgstr "Tu carrito de compras"
+
+#: templates/cart/detail.html:13 templates/payment/process.html:11
+msgid "Image"
+msgstr "Imagen"
+
+#: templates/cart/detail.html:14 templates/payment/process.html:12
+msgid "Product"
+msgstr "Producto"
+
+#: templates/cart/detail.html:16 templates/cart/detail.html:41
+msgid "Remove"
+msgstr "Quitar"
+
+#: templates/cart/detail.html:17
+msgid "Unit price"
+msgstr "Precio unitario"
+
+#: templates/cart/detail.html:18 templates/payment/process.html:13
+msgid "Price"
+msgstr "Precio"
+
+#: templates/cart/detail.html:35
+msgid "Update"
+msgstr "Actualizar"
+
+#: templates/cart/detail.html:53 templates/payment/process.html:33
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: templates/cart/detail.html:59 templates/payment/process.html:39
+#, python-format
+msgid ""
+"\n"
+"                \"%(code)s\" coupon (%(discount)s%% off)\n"
+"                "
+msgstr ""
+"\n"
+"                Cupón \"%(code)s\" (%(discount)s%% de descuento)\n"
+"                "
+
+#: templates/cart/detail.html:64
+msgid "Remove coupon"
+msgstr "Quitar cupón"
+
+#: templates/cart/detail.html:75 templates/orders/order/create.html:28
+#: templates/payment/process.html:15 templates/payment/process.html:49
+msgid "Total"
+msgstr "Total"
+
+#: templates/cart/detail.html:86 templates/shop/product/detail.html:33
+msgid "People who bought this also bought"
+msgstr "Las personas que compraron esto también compraron"
+
+#: templates/cart/detail.html:98
+msgid "Apply a coupon:"
+msgstr "Aplicar un cupón:"
+
+#: templates/cart/detail.html:101
+msgid "Apply"
+msgstr "Aplicar"
+
+#: templates/cart/detail.html:106
+msgid "Continue shopping"
+msgstr "Seguir comprando"
+
+#: templates/cart/detail.html:107 templates/orders/order/create.html:5
+#: templates/orders/order/create.html:9
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: templates/orders/order/create.html:11
+msgid "Your order"
+msgstr "Tu pedido"
+
+#: templates/orders/order/create.html:21
+#, python-format
+msgid ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% off)\n"
+"            "
+msgstr ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% de descuento)\n"
+"            "
+
+#: templates/orders/order/create.html:32
+msgid "Place order"
+msgstr "Realizar pedido"
+
+#: templates/orders/order/created.html:5 templates/orders/order/created.html:9
+msgid "Thank you"
+msgstr "Gracias"
+
+#: templates/orders/order/created.html:11
+#, python-format
+msgid ""
+"\n"
+"    Your order has been successfully completed. Your order number is "
+"<strong>%(order_id)s</strong>.\n"
+"    "
+msgstr ""
+"\n"
+"    Tu pedido se completó correctamente. Tu número de pedido es "
+"<strong>%(order_id)s</strong>.\n"
+"    "
+
+#: templates/payment/canceled.html:4
+msgid "Payment canceled"
+msgstr "Pago cancelado"
+
+#: templates/payment/canceled.html:7
+msgid "Your payment has not been processed"
+msgstr "Tu pago no fue procesado"
+
+#: templates/payment/canceled.html:8
+msgid "There was a problem processing your payment."
+msgstr "Hubo un problema al procesar tu pago."
+
+#: templates/payment/completed.html:4
+msgid "Payment successful"
+msgstr "Pago exitoso"
+
+#: templates/payment/completed.html:7
+msgid "Your payment was successful"
+msgstr "Tu pago fue exitoso"
+
+#: templates/payment/completed.html:8
+msgid "Your payment has been processed successfully."
+msgstr "Tu pago se procesó correctamente."
+
+#: templates/payment/process.html:4
+msgid "Pay your order"
+msgstr "Paga tu pedido"
+
+#: templates/payment/process.html:7
+msgid "Order summary"
+msgstr "Resumen del pedido"
+
+#: templates/payment/process.html:56
+msgid "Pay now"
+msgstr "Pagar ahora"
+
+#: templates/shop/base.html:9
+msgid "My shop"
+msgstr "Mi tienda"
+
+#: templates/shop/base.html:22
+#, python-format
+msgid ""
+"\n"
+"                    Your cart has %(counter)s item, $%(total_price)s.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    Your cart has %(counter)s items, $%(total_price)s.\n"
+"                    "
+msgstr[0] ""
+"\n"
+"                    Tu carrito tiene %(counter)s producto, $"
+"%(total_price)s.\n"
+"                    "
+msgstr[1] ""
+"\n"
+"                    Tu carrito tiene %(counter)s productos, $"
+"%(total_price)s.\n"
+"                    "
+
+#: templates/shop/base.html:27
+msgid "View cart"
+msgstr "Ver carrito"
+
+#: templates/shop/base.html:29
+msgid "Your cart is empty."
+msgstr "Tu carrito está vacío."
+
+#: templates/shop/base.html:37
+msgid "Language"
+msgstr "Idioma"
+
+#: templates/shop/product/detail.html:25
+msgid "Add to cart"
+msgstr "Agregar al carrito"
+
+#: templates/shop/product/list.html:5 templates/shop/product/list.html:25
+msgid "Products"
+msgstr "Productos"
+
+#: templates/shop/product/list.html:11
+msgid "Categories"
+msgstr "Categorías"
+
+#: templates/shop/product/list.html:14
+msgid "All"
+msgstr "Todos"

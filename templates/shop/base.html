@@ -1,36 +1,57 @@
-{% load static %}
+{% load static i18n %}
+{% get_current_language as CURRENT_LANGUAGE %}
 <!DOCTYPE html>
-<html>
+<html lang="{{ CURRENT_LANGUAGE }}">
 
 <head>
     <meta charset="utf-8" />
-    <title>{% block title %}My shop{% endblock %}</title>
-    <link href="{% static "css/base.css" %}" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}{% trans "My shop" %}{% endblock %}</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
 </head>
 
 <body>
-    <div id="header">
-        <a href="/" class="logo">Eternal Bond</a>
-    </div>
-    <div id="subheader">
-        <div class="cart">
-            {% with total_items=cart|length %}
-            {% if total_items > 0 %}
-            Your cart:
-            <a href="{% url "cart:cart_detail" %}">
-                {{ total_items }} item{{ total_items|pluralize }},
-                ${{ cart.get_total_price }}
-            </a>
-            {% elif not order %}
-            Your cart is empty.
-            {% endif %}
-            {% endwith %}
+    <header id="header">
+        <div class="container header-inner">
+            <a href="{% url 'shop:product_list' %}" class="logo">Eternal Bond</a>
+
+            <div class="header-actions">
+                <div class="cart-status">
+                    {% with total_items=cart|length %}
+                    {% if total_items > 0 %}
+                    {% blocktrans count counter=total_items with total_price=cart.get_total_price %}
+                    Your cart has {{ counter }} item, ${{ total_price }}.
+                    {% plural %}
+                    Your cart has {{ counter }} items, ${{ total_price }}.
+                    {% endblocktrans %}
+                    <a href="{% url 'cart:cart_detail' %}">{% trans "View cart" %}</a>
+                    {% elif not order %}
+                    {% trans "Your cart is empty." %}
+                    {% endif %}
+                    {% endwith %}
+                </div>
+
+                <form action="{% url 'set_language' %}" method="post" class="language-form">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.get_full_path }}">
+                    <label for="language-select">{% trans "Language" %}</label>
+                    <select id="language-select" name="language" onchange="this.form.submit()">
+                        {% get_available_languages as LANGUAGES %}
+                        {% for lang_code, lang_name in LANGUAGES %}
+                        <option value="{{ lang_code }}" {% if lang_code == CURRENT_LANGUAGE %}selected{% endif %}>
+                            {{ lang_name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
         </div>
-    </div>
-    <div id="content">
+    </header>
+
+    <main id="content" class="container">
         {% block content %}
         {% endblock %}
-    </div>
+    </main>
 </body>
 
 </html>

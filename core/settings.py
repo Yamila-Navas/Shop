@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'localflavor',
     'sorl.thumbnail',
 
-    'shop.apps.shopConfig',
+    'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
@@ -123,15 +123,14 @@ USE_I18N = True
 
 USE_TZ = True
 
-'''
 LANGUAGES = [
     ('en', 'English'),
-    ('es', 'Spanish'),
+    ('es', 'Español'),
 ]
 
 LOCALE_PATHS = [
     BASE_DIR / 'locale',
-]'''
+]
 
 
 # Static files (CSS, JavaScript, Images)
