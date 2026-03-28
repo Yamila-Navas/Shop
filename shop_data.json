@@ -1,0 +1,1875 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "shop",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "coupons",
+    "model": "coupon"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "thumbnail",
+    "model": "kvstore"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dgpf4m65s8i17gvlxi366bgpdfiniyix",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7fX0:1w595U:H-35VuF99fxXokPxxVWel0K2KE7cB3_PDDj35RcvxrY",
+    "expire_date": "2026-04-07T21:14:56.809Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rzvn90362ci5ksas6nn6scj7ftnfkrrw",
+  "fields": {
+    "session_data": ".eJxVjr0OgzAMhN_FM4oCCeFn7N5nQI5jCm2VtCEMFeLdGySGdvFw3935NhhwTdOwLhyH2UEPJRS_mkV6sD-Au6O_BUHBpzhbcVjESRdxDY6fl9P7VzDhMuU0kzSqc6VqsbXWVdrpRitDSGPTcoNsO-JydCNzZUynTa2kVCoDrVGSzaUhunNkVRdAGBP0G-jjvFf0aU4f6MsCXnEmzi9rI4WUsO_7Fx1MSjc:1vpSkE:xX2gR6Ka2Xqual8f1mc9jZDPpwH_ANPV1GJZal3el8w",
+    "expire_date": "2026-02-23T15:00:10.352Z"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||03aef89b99fc4a89951b848b43c3c2ae",
+  "fields": {
+    "value": "{\"name\": \"cache/a1/99/a199789c6dc2cec6d5408e7ac29ce67f.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 433]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||1423236f25dc16f995f51c56de6a4084",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/29/13.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [474, 646]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||47e76356fbc53a930da2b6300ef7df82",
+  "fields": {
+    "value": "{\"name\": \"cache/a4/2e/a42eb9d18d925540dc3a9107618cdf25.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 409]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||4d1434d9f8aed2f56b687385cc1814f2",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/31/14.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [474, 646]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||54d817fbda46b7196fd069f064a719b9",
+  "fields": {
+    "value": "{\"name\": \"cache/37/98/3798621f08771f52d0c3b32656df3d23.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 409]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5a9d6355714eb92d4edf88563afc70d1",
+  "fields": {
+    "value": "{\"name\": \"cache/99/e6/99e68ef6cc0db911517bc3c2d336ab4c.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 335]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5e5562e196f7e4c86d62d8c390e40af7",
+  "fields": {
+    "value": "{\"name\": \"cache/48/f1/48f1e62aa1c5ad8e62d7b0e16772d455.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 388]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||616acc91431c6c4adfc2f87f0bedd816",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/31/Captura_desde_2026-01-31_14-13-22.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [430, 621]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7041b61528db74bb028bdfd2511cdced",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/31/Captura_desde_2026-01-31_14-13-15.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [430, 621]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7dd18cf038ff205e3cf069b4e7212b7f",
+  "fields": {
+    "value": "{\"name\": \"products/2026/02/07/Captura_desde_2026-02-07_20-10-49.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [563, 629]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||84b033ff63739e8165850ceb1a64df97",
+  "fields": {
+    "value": "{\"name\": \"cache/9f/8d/9f8d2e436adacb751c1424cb67afffde.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 409]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||87cf3cb8865d362681a46b6b535c0f54",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/31/17.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [497, 643]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9ac5fc4ec6da92dc479ebef8fe6baf32",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/29/15.png\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [474, 646]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||bd513860ec19bee3d841df0f1c7f2759",
+  "fields": {
+    "value": "{\"name\": \"cache/de/8c/de8c2e9f9fee8917c47ae99bb2d83080.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [293, 400]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c2c3463649ebbe27a13b5f16a71af8f7",
+  "fields": {
+    "value": "{\"name\": \"cache/e1/5e/e15e4bd10d0f415f5c2a13d4e7b40da4.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 425]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d0a70fe9dca60cbc6b766af152ecd7d1",
+  "fields": {
+    "value": "{\"name\": \"products/2026/01/29/12.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [1446, 2048]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ecdb96c169fef67ebc047e8e8b7f3bf0",
+  "fields": {
+    "value": "{\"name\": \"cache/b3/d0/b3d07ea55ffe389836f85f87372406c5.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [300, 433]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||1423236f25dc16f995f51c56de6a4084",
+  "fields": {
+    "value": "[\"84b033ff63739e8165850ceb1a64df97\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||4d1434d9f8aed2f56b687385cc1814f2",
+  "fields": {
+    "value": "[\"54d817fbda46b7196fd069f064a719b9\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||616acc91431c6c4adfc2f87f0bedd816",
+  "fields": {
+    "value": "[\"03aef89b99fc4a89951b848b43c3c2ae\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||7041b61528db74bb028bdfd2511cdced",
+  "fields": {
+    "value": "[\"ecdb96c169fef67ebc047e8e8b7f3bf0\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||7dd18cf038ff205e3cf069b4e7212b7f",
+  "fields": {
+    "value": "[\"5a9d6355714eb92d4edf88563afc70d1\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||87cf3cb8865d362681a46b6b535c0f54",
+  "fields": {
+    "value": "[\"5e5562e196f7e4c86d62d8c390e40af7\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||9ac5fc4ec6da92dc479ebef8fe6baf32",
+  "fields": {
+    "value": "[\"bd513860ec19bee3d841df0f1c7f2759\", \"47e76356fbc53a930da2b6300ef7df82\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||d0a70fe9dca60cbc6b766af152ecd7d1",
+  "fields": {
+    "value": "[\"c2c3463649ebbe27a13b5f16a71af8f7\"]"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "name": "Novia",
+    "slug": "novia"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "name": "Novio",
+    "slug": "novio"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "name": "Dama de honor",
+    "slug": "dama-de-honor"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "Aurora Eterna",
+    "slug": "aurora-eterna",
+    "image": "products/2026/01/29/12.jpg",
+    "description": "Vestido de novia en tul bordado, con escote cuadrado y diseño musculosa. La falda casi transparente cae con suavidad y se prolonga en una cola liviana, creando un look etéreo, delicado y muy elegante.",
+    "price": "500.00",
+    "available": true,
+    "created": "2026-01-29T23:30:35.007Z",
+    "updated": "2026-01-29T23:30:35.007Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "name": "Cielo de Marfil",
+    "slug": "cielo-de-marfil",
+    "image": "products/2026/01/29/13.png",
+    "description": "Vestido de novia corte princesa, en satén y tul, con una silueta clásica y elegante. Una delicada flor azul en la cadera aporta un detalle romántico y sutilmente distinto.",
+    "price": "1200.00",
+    "available": true,
+    "created": "2026-01-29T23:33:14.087Z",
+    "updated": "2026-01-29T23:33:14.087Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "name": "Alba de Cristal",
+    "slug": "alba-de-cristal",
+    "image": "products/2026/01/31/14.png",
+    "description": "Vestido de novia de tul, corte princesa, con corset transparente delicadamente bordado. Etéreo, romántico y lleno de magia.",
+    "price": "1000.00",
+    "available": true,
+    "created": "2026-01-29T23:36:00.373Z",
+    "updated": "2026-01-31T17:35:32.991Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 3,
+    "name": "Aurora Blush",
+    "slug": "aurora-blush",
+    "image": "products/2026/01/29/15.png",
+    "description": "Vestido de dama de honor en tono rosa oro, delicado y luminoso. Su caída suave realza la silueta con elegancia y un aire romántico.",
+    "price": "560.00",
+    "available": true,
+    "created": "2026-01-29T23:37:59.740Z",
+    "updated": "2026-01-29T23:37:59.740Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "category": 3,
+    "name": "Sol de Miel",
+    "slug": "sol-de-miel",
+    "image": "products/2026/01/31/17.png",
+    "description": "Vestido de dama de honor en amarillo suave, fresco y etéreo. Liviano, alegre y perfecto para bodas de día o al aire libre.",
+    "price": "500.00",
+    "available": true,
+    "created": "2026-01-29T23:38:39.033Z",
+    "updated": "2026-01-31T17:07:12.133Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "name": "Príncipe Alba",
+    "slug": "principe-alba",
+    "image": "products/2026/01/31/Captura_desde_2026-01-31_14-13-22.png",
+    "description": "Traje elegante y luminoso, de líneas limpias y corte moderno. Ideal para bodas de día o ceremonias al aire libre. Transmite pureza, distinción y presencia refinada.",
+    "price": "2000.00",
+    "available": true,
+    "created": "2026-01-31T17:16:00.213Z",
+    "updated": "2026-01-31T17:16:00.213Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "category": 2,
+    "name": "Noble Atlántico",
+    "slug": "noble-atlantico",
+    "image": "products/2026/01/31/Captura_desde_2026-01-31_14-13-15.png",
+    "description": "Traje de novio azul oscuro,  sobrio y sofisticado, con un tono azul profundo que aporta carácter y elegancia. Perfecto para bodas nocturnas o formales, combina fuerza, estilo clásico y modernidad.",
+    "price": "1800.00",
+    "available": true,
+    "created": "2026-01-31T17:17:00.183Z",
+    "updated": "2026-01-31T17:17:53.152Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "category": 1,
+    "name": "Ramo Merlyn",
+    "slug": "ramo-merlyn",
+    "image": "products/2026/02/07/Captura_desde_2026-02-07_20-10-49.png",
+    "description": "Ramo de rosas blancas, tupido y elegante.",
+    "price": "270.00",
+    "available": true,
+    "created": "2026-02-07T23:13:29.238Z",
+    "updated": "2026-02-07T23:13:29.238Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "first_name": "Luna",
+    "last_name": "Navas",
+    "email": "LunaBrunero@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-03T00:35:44.332Z",
+    "updated": "2026-02-03T01:36:20.472Z",
+    "paid": true,
+    "stripe_id": "pi_3SwXbN36fPIGuqTY1vg08oN5",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "Navas",
+    "email": "yamila_navas2024@outlook.com.ar",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-03T00:37:35.939Z",
+    "updated": "2026-02-03T00:38:22.153Z",
+    "paid": true,
+    "stripe_id": "pi_3SwXdI36fPIGuqTY0lRiz3vR",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "first_name": "lolo",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-05T22:44:42.805Z",
+    "updated": "2026-02-05T22:45:25.323Z",
+    "paid": true,
+    "stripe_id": "pi_3SxbId36fPIGuqTY1sqcabie",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "first_name": "lolo",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-05T22:50:20.444Z",
+    "updated": "2026-02-05T22:50:59.432Z",
+    "paid": true,
+    "stripe_id": "pi_3SxbO236fPIGuqTY0947urwJ",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "navas",
+    "email": "yamila_navas2024@outlook.com.ar",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-05T22:54:01.457Z",
+    "updated": "2026-02-05T22:54:35.759Z",
+    "paid": true,
+    "stripe_id": "pi_3SxbRW36fPIGuqTY0n0f2s6v",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 16,
+  "fields": {
+    "first_name": "clara",
+    "last_name": "mente",
+    "email": "claramente@gmail.com",
+    "address": "londre 223",
+    "postal_code": "5000",
+    "city": "cordoba",
+    "created": "2026-02-05T23:03:54.372Z",
+    "updated": "2026-02-05T23:04:48.481Z",
+    "paid": true,
+    "stripe_id": "pi_3SxbbO36fPIGuqTY18b289G2",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 17,
+  "fields": {
+    "first_name": "clara",
+    "last_name": "mente",
+    "email": "claramente@gmail.com",
+    "address": "londre 223",
+    "postal_code": "5000",
+    "city": "Cordoba",
+    "created": "2026-02-05T23:14:53.712Z",
+    "updated": "2026-02-05T23:16:33.345Z",
+    "paid": true,
+    "stripe_id": "pi_3Sxbml36fPIGuqTY1AGL5Ue8",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-05T23:20:11.458Z",
+    "updated": "2026-02-05T23:20:45.446Z",
+    "paid": true,
+    "stripe_id": "pi_3Sxbqp36fPIGuqTY1O3ERbJr",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 19,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-06T22:03:32.644Z",
+    "updated": "2026-02-06T22:03:32.644Z",
+    "paid": false,
+    "stripe_id": "",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 20,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-06T22:05:09.965Z",
+    "updated": "2026-02-06T22:05:09.965Z",
+    "paid": false,
+    "stripe_id": "",
+    "coupon": 1,
+    "discount": 20
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 21,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-06T22:26:39.603Z",
+    "updated": "2026-02-06T22:26:39.603Z",
+    "paid": false,
+    "stripe_id": "",
+    "coupon": 1,
+    "discount": 20
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 22,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5000",
+    "city": "cordoba",
+    "created": "2026-02-06T22:27:07.944Z",
+    "updated": "2026-02-06T22:27:07.944Z",
+    "paid": false,
+    "stripe_id": "",
+    "coupon": 1,
+    "discount": 20
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 23,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "navas",
+    "email": "claramente@gmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "Cordoba",
+    "created": "2026-02-06T23:22:55.209Z",
+    "updated": "2026-02-06T23:23:27.666Z",
+    "paid": true,
+    "stripe_id": "pi_3SxyMy36fPIGuqTY1x5ChIcV",
+    "coupon": 1,
+    "discount": 20
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 24,
+  "fields": {
+    "first_name": "yamila",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "5016",
+    "city": "cordoba",
+    "created": "2026-02-07T23:14:46.656Z",
+    "updated": "2026-02-07T23:15:15.351Z",
+    "paid": true,
+    "stripe_id": "pi_3SyKib36fPIGuqTY0ioWNyQ4",
+    "coupon": 1,
+    "discount": 20
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 25,
+  "fields": {
+    "first_name": "clara",
+    "last_name": "lite",
+    "email": "lolo@hotmail.com",
+    "address": "Treviso 4025",
+    "postal_code": "33555",
+    "city": "Cordoba",
+    "created": "2026-02-09T14:15:17.316Z",
+    "updated": "2026-02-09T14:15:17.316Z",
+    "paid": false,
+    "stripe_id": "",
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 11,
+    "product": 3,
+    "price": "1000.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 12,
+    "product": 4,
+    "price": "560.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 13,
+    "product": 6,
+    "price": "2000.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 14,
+    "product": 7,
+    "price": "1800.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 15,
+    "product": 4,
+    "price": "560.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 16,
+    "product": 1,
+    "price": "500.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 17,
+    "product": 5,
+    "price": "500.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 18,
+    "product": 4,
+    "price": "560.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 19,
+    "product": 2,
+    "price": "1200.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 20,
+    "product": 3,
+    "price": "1000.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 22,
+    "product": 3,
+    "price": "1000.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 23,
+    "product": 3,
+    "price": "1000.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 24,
+    "product": 2,
+    "price": "1200.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 24,
+    "product": 8,
+    "price": "270.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 25,
+    "product": 4,
+    "price": "560.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 25,
+    "product": 3,
+    "price": "1000.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "coupons.coupon",
+  "pk": 1,
+  "fields": {
+    "code": "ETERNAL",
+    "valid_from": "2026-02-06T21:02:43Z",
+    "valid_to": "2026-03-31T21:02:53Z",
+    "discount": 20,
+    "active": true
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add category",
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change category",
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete category",
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view category",
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add product",
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change product",
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete product",
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view product",
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add order item",
+    "content_type": [
+      "orders",
+      "orderitem"
+    ],
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change order item",
+    "content_type": [
+      "orders",
+      "orderitem"
+    ],
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": [
+      "orders",
+      "orderitem"
+    ],
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view order item",
+    "content_type": [
+      "orders",
+      "orderitem"
+    ],
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add coupon",
+    "content_type": [
+      "coupons",
+      "coupon"
+    ],
+    "codename": "add_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change coupon",
+    "content_type": [
+      "coupons",
+      "coupon"
+    ],
+    "codename": "change_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete coupon",
+    "content_type": [
+      "coupons",
+      "coupon"
+    ],
+    "codename": "delete_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view coupon",
+    "content_type": [
+      "coupons",
+      "coupon"
+    ],
+    "codename": "view_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add kv store",
+    "content_type": [
+      "thumbnail",
+      "kvstore"
+    ],
+    "codename": "add_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change kv store",
+    "content_type": [
+      "thumbnail",
+      "kvstore"
+    ],
+    "codename": "change_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete kv store",
+    "content_type": [
+      "thumbnail",
+      "kvstore"
+    ],
+    "codename": "delete_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view kv store",
+    "content_type": [
+      "thumbnail",
+      "kvstore"
+    ],
+    "codename": "view_kvstore"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$wSGiwHMQ2aSfdKonRAOx0G$8ZsHKGHwHcf/Qd0Cfkx9xJ8jyugNw/Bpd1OnnY01y00=",
+    "last_login": "2026-01-29T23:11:22.927Z",
+    "is_superuser": true,
+    "username": "yamila",
+    "first_name": "",
+    "last_name": "",
+    "email": "yaminavassole@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-29T23:10:50.590Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-01-29T23:22:13.988Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "Category object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-01-29T23:22:28.115Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "Category object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-01-29T23:22:41.313Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "Category object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-01-29T23:30:35.008Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Aurora Eterna",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-01-29T23:33:14.088Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Cielo de Marfil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-01-29T23:36:00.374Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Alba de Cristal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-01-29T23:37:59.742Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Aurora Blush",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-01-29T23:38:39.034Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Sol de Miel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-01-31T17:07:12.135Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Sol de Miel",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-01-31T17:16:00.214Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Príncipe Alba",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-01-31T17:17:00.184Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Noble Atlántico",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-01-31T17:17:53.153Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Noble Atlántico",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-01-31T17:31:40.389Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Alba de Cristal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-01-31T17:35:32.993Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Alba de Cristal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "10",
+    "object_repr": "Order 10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "9",
+    "object_repr": "Order 9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order 8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "7",
+    "object_repr": "Order 7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "6",
+    "object_repr": "Order 6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "5",
+    "object_repr": "Order 5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "4",
+    "object_repr": "Order 4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "3",
+    "object_repr": "Order 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "2",
+    "object_repr": "Order 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-02-03T00:35:21.539Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "1",
+    "object_repr": "Order 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-02-06T21:03:02.825Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "coupons",
+      "coupon"
+    ],
+    "object_id": "1",
+    "object_repr": "ETERNAL",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-02-07T23:13:29.240Z",
+    "user": [
+      "yamila"
+    ],
+    "content_type": [
+      "shop",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Ramo Merlyn",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
